@@ -1,4 +1,5 @@
 \babel@toc {english}{}\relax 
 \beamer@sectionintoc {1}{Section}{3}{0}{1}
 \beamer@subsectionintoc {1}{1}{subsection}{5}{0}{1}
-\beamer@sectionintoc {2}{References}{6}{0}{2}
+\beamer@sectionintoc {2}{New Section}{6}{0}{2}
+\beamer@sectionintoc {3}{References}{8}{0}{3}
