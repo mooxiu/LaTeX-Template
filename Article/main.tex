@@ -1,0 +1,73 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage{tgpagella}         % Palatino-like, modern, beautiful
+\usepackage{microtype}         % 细节微调
+
+\usepackage{setspace}
+\setstretch{1.15}
+\usepackage[margin=1in]{geometry}
+
+\usepackage{hyperref} % for href 
+\usepackage{amsmath,amsthm,amsfonts}                % AMS Math
+\usepackage{thmtools}                               % Theorem Tools
+\usepackage{bm}                                     % Bold Math
+\usepackage{graphicx}
+\usepackage[style=alphabetic,maxcitenames=1]{biblatex}
+\addbibresource{reference.bib}
+
+% Adjust the backgound of the page
+\usepackage{pagecolor}
+\definecolor{softivory}{RGB}{252, 249, 237}
+\pagecolor{softivory}
+% \nopagecolor % uncomment this when submit
+
+
+
+%────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+%────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+\author{
+  Author 1 \\
+  Institute of Science Tokyo \\
+  \texttt{author1@m.isct.ac.jp}
+  \and
+  Author 2 \\
+  Institute of Science Tokyo \\  
+  \texttt{author2@m.isct.ac.jp}
+}
+
+\date{\today}
+
+\title{\textbf{Title of the Article}}
+
+
+%────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+% Statrt the content
+%────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+\begin{document}
+\maketitle
+
+\begin{abstract}
+  This is the abstract
+  \textbf{Keywords:} \textit{keyword1, keyword2}
+\end{abstract}
+
+\section{Background}
+The MLIR project \cite{10.1109/CGO51591.2021.9370308} is a novel approach to building reusable 
+and extensible compiler infrastructure. 
+MLIR aims to address software fragmentation, 
+improve compilation for heterogeneous hardware, 
+significantly reduce the cost of building domain specific compilers, 
+and aid in connecting existing compilers together.
+
+\section{Methodology}
+
+\section{Results}
+
+\section{Conclusion}
+
+\section{Acknowledgment}
+
+\pagestyle{plain}
+\printbibliography
+
+\end{document}

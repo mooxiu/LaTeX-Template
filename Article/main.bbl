@@ -1,0 +1,113 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{anyt/global//global/global}
+    \entry{10.1109/CGO51591.2021.9370308}{inproceedings}{}
+      \name{author}{10}{}{%
+        {{hash=082d304bf1444853e07be11590d172a2}{%
+           family={Lattner},
+           familyi={L\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod}}}%
+        {{hash=a348049bbee83ce5dc3444b952a2e4e0}{%
+           family={Amini},
+           familyi={A\bibinitperiod},
+           given={Mehdi},
+           giveni={M\bibinitperiod}}}%
+        {{hash=44beb2efd6fff24cc11c2165be3061df}{%
+           family={Bondhugula},
+           familyi={B\bibinitperiod},
+           given={Uday},
+           giveni={U\bibinitperiod}}}%
+        {{hash=172a9e8d07a17bf85f8736265ac88aae}{%
+           family={Cohen},
+           familyi={C\bibinitperiod},
+           given={Albert},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a4c859221cc41e2db6d63b486f955ba2}{%
+           family={Davis},
+           familyi={D\bibinitperiod},
+           given={Andy},
+           giveni={A\bibinitperiod}}}%
+        {{hash=fa8cd7351db263fc7bb9149842f16d47}{%
+           family={Pienaar},
+           familyi={P\bibinitperiod},
+           given={Jacques},
+           giveni={J\bibinitperiod}}}%
+        {{hash=22b8268ddc68fbfe733d278d847a1c8e}{%
+           family={Riddle},
+           familyi={R\bibinitperiod},
+           given={River},
+           giveni={R\bibinitperiod}}}%
+        {{hash=6e3d94b6d44b7fcf4fd06d7f167c2a82}{%
+           family={Shpeisman},
+           familyi={S\bibinitperiod},
+           given={Tatiana},
+           giveni={T\bibinitperiod}}}%
+        {{hash=24df4de2e6a66b7661e3d3491e24007d}{%
+           family={Vasilache},
+           familyi={V\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=dd7e1186ad5e5ac1aa0a5273fb1891d2}{%
+           family={Zinenko},
+           familyi={Z\bibinitperiod},
+           given={Oleksandr},
+           giveni={O\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Virtual Event, Republic of Korea}%
+      }
+      \list{publisher}{1}{%
+        {IEEE Press}%
+      }
+      \strng{namehash}{62e7e4e161fe1b8570afd85fa3805300}
+      \strng{fullhash}{db33f1a54b98527b6c0766c902649cb4}
+      \strng{bibnamehash}{62e7e4e161fe1b8570afd85fa3805300}
+      \strng{authorbibnamehash}{62e7e4e161fe1b8570afd85fa3805300}
+      \strng{authornamehash}{62e7e4e161fe1b8570afd85fa3805300}
+      \strng{authorfullhash}{db33f1a54b98527b6c0766c902649cb4}
+      \field{labelalpha}{Lat+21}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This work presents MLIR, a novel approach to building reusable and extensible compiler infrastructure. MLIR addresses software fragmentation, compilation for heterogeneous hardware, significantly reducing the cost of building domain specific compilers, and connecting existing compilers together.MLIR facilitates the design and implementation of code generators, translators and optimizers at different levels of abstraction and across application domains, hardware targets and execution environments. The contribution of this work includes (1) discussion of MLIR as a research artifact, built for extension and evolution, while identifying the challenges and opportunities posed by this novel design, semantics, optimization specification, system, and engineering. (2) evaluation of MLIR as a generalized infrastructure that reduces the cost of building compilers---describing diverse use-cases to show research and educational opportunities for future programming languages, compilers, execution environments, and computer architecture. The paper also presents the rationale for MLIR, its original design principles, structures and semantics.}
+      \field{booktitle}{Proceedings of the 2021 IEEE/ACM International Symposium on Code Generation and Optimization}
+      \field{isbn}{9781728186139}
+      \field{series}{CGO '21}
+      \field{title}{MLIR: scaling compiler infrastructure for domain specific computation}
+      \field{year}{2021}
+      \field{pages}{2\bibrangedash 14}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1109/CGO51591.2021.9370308
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1109/CGO51591.2021.9370308
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1109/CGO51591.2021.9370308
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
