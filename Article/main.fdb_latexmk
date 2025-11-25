@@ -1,14 +1,14 @@
 # Fdb version 4
-["biber main"] 1763622294.26438 "main.bcf" "main.bbl" "main" 1764034216.73304 0
-  "main.bcf" 1764034216.68193 107885 6d4494f75971ba94c78c0e4428af5278 "pdflatex"
+["biber main"] 1763622294.26438 "main.bcf" "main.bbl" "main" 1764034299.66907 0
+  "main.bcf" 1764034299.61597 107885 6d4494f75971ba94c78c0e4428af5278 "pdflatex"
   "reference.bib" 1763622375.29751 1862 63088d0a2f47dcd5b3fc5557bb82fa84 ""
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1764034216.0081 "/home/haruka/Documents/workspace/LaTeX-Template/Article/main.tex" "main.pdf" "main" 1764034216.7333 0
+["pdflatex"] 1764034298.95364 "/home/haruka/Documents/workspace/LaTeX-Template/Article/main.tex" "main.pdf" "main" 1764034299.66932 0
   "/etc/texmf/web2c/texmf.cnf" 1756535703.90193 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/haruka/Documents/workspace/LaTeX-Template/Article/main.tex" 1764034215.8498 3521 0f2edbe060078119f4b69fa99ceaf26e ""
+  "/home/haruka/Documents/workspace/LaTeX-Template/Article/main.tex" 1764034298.94797 3486 304179844cb658abbdc320b17a1973b9 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm" 1246382020 1124 14ccf5552bc7f77ca02a8a402bea8bfb ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm" 1246382020 1120 7f9f170e8aa57527ad6c49feafd45d54 ""
@@ -148,11 +148,11 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1756535738.20784 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1756535760 8210612 37ee6648da6e01c00f8334f956601dc5 ""
-  "main.aux" 1764034216.68093 997 7c6151bf13f764b9270ec35d25918766 "pdflatex"
+  "main.aux" 1764034299.61397 997 7c6151bf13f764b9270ec35d25918766 "pdflatex"
   "main.bbl" 1763622375.29615 4993 58cd57fa31b0481bd5e2d91a663eb0c9 "biber main"
-  "main.out" 1764034216.68093 475 53b782cf488116828c7ebc8bd792d5f9 "pdflatex"
-  "main.run.xml" 1764034216.68268 2310 cbb26e80786631ec36044c7936a50acd "pdflatex"
-  "main.tex" 1764034215.8498 3521 0f2edbe060078119f4b69fa99ceaf26e ""
+  "main.out" 1764034299.61497 475 53b782cf488116828c7ebc8bd792d5f9 "pdflatex"
+  "main.run.xml" 1764034299.61662 2310 cbb26e80786631ec36044c7936a50acd "pdflatex"
+  "main.tex" 1764034298.94797 3486 304179844cb658abbdc320b17a1973b9 ""
   (generated)
   "main.aux"
   "main.bcf"
