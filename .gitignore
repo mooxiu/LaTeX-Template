@@ -1,3 +1,45 @@
 .DS_Store
 social_preview.png
 signature.png
+
+# LaTeX Core
+*.aux
+*.glo
+*.idx
+*.log
+*.toc
+*.ist
+*.acn
+*.acr
+*.alg
+*.bbl
+*.blg
+*.dvi
+*.glg
+*.gls
+*.ilg
+*.ind
+*.lof
+*.lot
+*.maf
+*.mtc
+*.mtc0
+*.nav
+*.nlo
+*.out
+*.pdfsync
+*.ps
+*.snm
+*.synctex.gz
+*.thm
+*.vrb
+*.xdy
+*.tdo
+
+# Bibliography
+*.bcf
+*.run.xml
+
+# Build Tools (latexmk)
+*.fdb_latexmk
+*.fls
