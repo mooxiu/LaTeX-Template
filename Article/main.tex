@@ -14,6 +14,8 @@
 \usepackage{graphicx}
 \usepackage{float} % can use [H] so the figure does not float
 \usepackage{listings} %inline code
+\usepackage{codeformat}
+
 \usepackage[style=alphabetic,maxcitenames=1]{biblatex}
 \addbibresource{reference.bib}
 
@@ -62,7 +64,36 @@ improve compilation for heterogeneous hardware,
 significantly reduce the cost of building domain specific compilers, 
 and aid in connecting existing compilers together.
 
-\section{Methodology}
+\section{MLIR Code Example}
+\begin{lstlisting}[style=MyMLIR]
+func.func @foo(%arg0: memref<?xf32>) -> () {
+  "use"(%arg0) : (memref<?xf32>) -> ()
+  return
+}
+
+// Gets converted to the following
+// (using type alias for brevity):
+!llvm.memref_1d = !llvm.struct<(ptr, ptr, i64, array<1xi64>, array<1xi64>)>
+
+llvm.func @foo(%arg0: !llvm.ptr,       // Allocated pointer.
+               %arg1: !llvm.ptr,       // Aligned pointer.
+               %arg2: i64,             // Offset.
+               %arg3: i64,             // Size in dim 0.
+               %arg4: i64) {           // Stride in dim 0.
+  // Populate memref descriptor structure.
+  %0 = llvm.mlir.undef : !llvm.memref_1d
+  %1 = llvm.insertvalue %arg0, %0[0] : !llvm.memref_1d
+  %2 = llvm.insertvalue %arg1, %1[1] : !llvm.memref_1d
+  %3 = llvm.insertvalue %arg2, %2[2] : !llvm.memref_1d
+  %4 = llvm.insertvalue %arg3, %3[3, 0] : !llvm.memref_1d
+  %5 = llvm.insertvalue %arg4, %4[4, 0] : !llvm.memref_1d
+
+  // Descriptor is now usable as a single value.
+  "use"(%5) : (!llvm.memref_1d) -> ()
+  llvm.return
+}
+\end{lstlisting}
+
 
 \section{Results}
 

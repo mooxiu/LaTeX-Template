@@ -1,0 +1,58 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{harukaCodeFormat}[2026/03/02 LaTeX package]
+
+\RequirePackage{listings}
+\RequirePackage{xcolor}
+
+% Define some colors
+\definecolor{keywordcolor}{rgb}{0.13, 0.29, 0.53}
+\definecolor{commentcolor}{rgb}{0.38, 0.63, 0.69}
+\definecolor{stringcolor}{rgb}{0.86, 0.27, 0.27}
+
+% Lst style, global style
+\lstset{
+    basicstyle=\ttfamily\small,
+    keywordstyle=\bfseries\color{keywordcolor},
+    commentstyle=\itshape\color{commentcolor},
+    stringstyle=\color{stringcolor},
+    showstringspaces=false,
+    breaklines=true,
+    frame=single 
+}
+
+% define keywords for my special languages
+\lstdefinelanguage{LLVM}{
+  morekeywords={define, declare, ret, br, switch, invoke, resume, unreachable, add, fadd, sub, fsub, mul, fmul, udiv, sdiv, fdiv, urem, srem, frem, shl, lshr, ashr, and, or, xor, alloca, load, store, getelementptr, trunc, zext, sext, fptrunc, fpext, fptoui, fptosi, uitofp, sitofp, ptrtoint, inttoptr, bitcast, icmp, fcmp, phi, select, call},
+  morecomment=[l]{;}, 
+  morestring=[b]",
+  alsoletter={\%, \@, \!}, 
+  sensitive=true
+}
+
+\lstdefinelanguage{MLIR}{
+  morekeywords={module, func, return, yield, br, cond_br, alloc, dealloc, load, store, call},
+  morecomment=[l]{//}, 
+  morestring=[b]",
+  alsoletter={\%, \^, \!, \#, \@, \.}, 
+  sensitive=true
+}
+
+% Styles be used
+\lstdefinestyle{MyCpp} {
+  language = C++,
+  numbers = left,
+  stepnumber = 1
+}
+
+\lstdefinestyle{MyFortran} {
+  language = Fortran,
+  numbers = left,
+  stepnumber = 1
+}
+
+\lstdefinestyle{MyMLIR} {
+  language = MLIR,
+  numbers = left,
+  stepnumber = 1
+}
+
